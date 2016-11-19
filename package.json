@@ -1,0 +1,30 @@
+{
+  "name": "spider-nodejs",
+  "version": "1.0.0",
+  "description": "web spider with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yezihaohao/spider-nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "chenghao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yezihaohao/spider-nodejs/issues"
+  },
+  "homepage": "https://github.com/yezihaohao/spider-nodejs#readme",
+  "dependencies": {
+    "async": "^2.1.2",
+    "cheerio": "^0.22.0",
+    "eventproxy": "^0.3.5",
+    "install": "^0.8.2",
+    "mongoose": "^4.6.8",
+    "superagent": "^2.3.0"
+  }
+}

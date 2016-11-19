@@ -27,6 +27,7 @@ let ep = eventproxy.create('pageUrls', (pageUrls) => {
             .end((err, res) => {
                 var $ = cheerio.load(res.text);
                 var _data = {title:'', type: '', directories: '', scriptwriter: '', actors: ''};
+                //好久没有过选择器了，凑合吧~-_-!。可以自己随意添加想要的数据
                 _data.title = $('#content h1 span').text();
                 _data.directories = $('#info .attrs').eq(0).text();
                 _data.scriptwriter = $('#info .attrs').eq(1).text();
